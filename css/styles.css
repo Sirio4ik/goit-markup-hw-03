@@ -61,9 +61,11 @@ img {
 
 .header-list {
   display: flex;
+  gap: 40px;
 }
 .header-item {
-  margin-right: 40px;
+  display: flex;
+  gap: 40px;
 }
 .header-link-logo {
   font-family: "Raleway", sans-serif;
@@ -75,7 +77,6 @@ img {
   color: #4d5ae5;
   display: flex;
   margin-right: 76px;
-  margin-left: 156px;
 }
 .header-link-logo-second {
   font-family: "Raleway";
@@ -113,6 +114,7 @@ img {
 }
 .header-address-list {
   display: flex;
+  gap: 40px;
 }
 .header-address-link:hover,
 .header-address-link:focus {
